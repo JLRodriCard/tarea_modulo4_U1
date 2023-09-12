@@ -1,15 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Nav = (props) => {
     return (
     <>
        <nav id="botonera_nav">
         
         <ul className="holder">
-            <li><a className="activo" href="index.html">INICIO</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="flota.html">EQUIPOS</a></li>
-            <li><a href="cotizador.html">COTIZADOR</a></li>
-            <li><a href="Empresa.html">NOSOTROS</a></li>
+            <li><Link to= "/">Inicio</Link></li>
+            <li><Link to= "/Servicios">Servicios</Link></li>
+            <li><Link to= "/Equipos">Equipos</Link></li>
+            <li><Link to= "/Cotizador">Cotizador</Link></li>
+            <li><Link to= "/Nosotros">Nosotros</Link></li>
+
 
         </ul>
 
