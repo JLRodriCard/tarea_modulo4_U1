@@ -107,14 +107,16 @@ nav ul li a {
 
 nav ul li a.activo {
   background: rgb(211, 211, 196);
-  background: linear-gradient(0deg, rgb(52, 109, 214) 17%, rgb(52, 54, 56) 70%);
+  background: linear-gradient(0deg, rgb(52, 109, 214) 17%, rgb(4, 75, 146) 70%);
 }
 
 
 nav ul li a:hover {
-  background: rgb(69, 70, 71);
-  background: linear-gradient(180deg, rgb(2, 38, 73) 17%, rgb(43, 30, 30) 51%, rgb(118, 106, 163) 85%, rgba(243, 245, 249, 1) 100%, rgba(245, 243, 243, 1) 100%);
+ /* background: rgb(69, 70, 71);
+  background: linear-gradient(180deg, rgb(2, 38, 73) 17%, rgb(43, 30, 30) 51%, rgb(118, 106, 163) 85%, rgba(243, 245, 249, 1) 100%, rgba(245, 243, 243, 1) 100%);*/
 
+  background: rgb(211, 211, 196);
+  background: linear-gradient(0deg, rgb(2, 29, 57) 17%, rgb(3, 27, 51) 70%);
 }
 
 footer {
