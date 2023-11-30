@@ -645,6 +645,11 @@ input{
   color: #0b0b0b;
 }
 
+.novedad_nosotros {
+  background-color: rgb(12, 228, 167) ; 
+  text-align: center;
+  
+}
 
 
 /* FIN ESTILOS EMPRESA/NOSOTROS*/
